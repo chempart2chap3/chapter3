@@ -14,7 +14,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 165vh;
             text-align: center;
         }
         .container {
@@ -44,6 +44,10 @@
             border-radius: 10px;
             margin-bottom: 15px;
         }
+        .pdf-embed {
+            height: 500px;
+            margin-bottom: 20px;
+        }
         .btn-back {
             padding: 10px 20px;
             background: #f5576c;
@@ -63,9 +67,12 @@
 <body>
     <div class="container">
         <h1>Lecture 6</h1>
-        <p class="description">This class covers the percentage.</p>
+        <p class="description">This class covers the concentration.</p>
         <!-- Embedded YouTube video -->
         <iframe src="https://www.youtube.com/embed/SCTYXhmfQSU" title="lec6" allowfullscreen allow="fullscreen"></iframe>
+        <h1>Class slide</h1>
+        <!-- Embedded class slide pdf -->
+        <iframe class="pdf-embed" src="https://drive.google.com/file/d/1w_FCVUblGkFzWPYHNL_WZOJqoVN7aSGr/preview" allow="fullscreen"></iframe>
         <!-- Back button to main page -->
         <a href="index.html" class="btn-back">Back to All Classes</a>
     </div>
